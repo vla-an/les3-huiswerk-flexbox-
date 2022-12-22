@@ -1,1 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/
+*Deel 1
+Opdracht 1*/
+.opdracht-1{
+    */
+    */
+    display: flex;
+    flex-direction: column;
+
+}/*Schrijf hier jouw CSS*/
+
+.navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*opdracht 2 */
+.navbar2{
+    display: flex;
+    flex-direction: row;
+}
+.list{
+    flex-basis: 300px;
+}
+
+/*opdracht 3*/
+
+.navbar3 {
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-left {
+    align-self: flex-start;
+}
+
+.centered {
+    align-self: center;
+}
+
+.bottom {
+    align-self: flex-end;
+}
+
+/*opdracht 4 */
+
+.opdr4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:10px;
+}
+
+/*opdracht 5*/
+
+.opdracht-5{
+    display: flex;
+}
+.container-op5{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-basis: 800px;
+}
+
+.column1, .column2, .column3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.column1{
+    align-items: flex-start;
+}
+
+.column2{
+    align-items: center;
+}
+
+.column3{
+    align-items: flex-end;
+}
+
+
 /*Schrijf hier jouw CSS*/

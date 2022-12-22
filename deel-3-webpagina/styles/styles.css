@@ -1,1 +1,74 @@
-/*Schrijf hier jouw css*/
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F3D9;
+    margin:40px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 120px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    order: 2;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    order: 3;
+}
+.articles{
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 75%;
+}
+
+article{
+    display: flex;
+    background-color: #C16E70;
+    flex-basis: 280px;
+    height: 350px;
+    align-items: flex-end;
+    text-align: center;
+    flex-shrink: 1;
+
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    order: 1;
+    background-color: #030027;
+    color: white;
+    justify-content: space-between;
+    flex-basis: 80px;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    flex-basis: 40%;
+    justify-content: space-evenly;
+}
+
+.analytica{
+    font-weight: bold;
+    margin-left: 80px;
+
+}
